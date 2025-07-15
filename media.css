@@ -1,0 +1,177 @@
+/* for phone */
+@media all and (max-width: 767px){
+
+nav{
+        display: none;
+}
+
+.media_nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* .new{
+    position: relative;
+    top: 450px;
+    left: 150px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+} */
+
+.welcome2{
+    font-size: 40px;
+    font-weight: 550;
+}
+.box{
+    height: 190em;
+
+}
+.box1{
+    position: relative;
+    right: 00px;
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 500px;
+}
+
+.box9{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 650px;
+    background-color: rgb(211, 239, 240);
+}
+
+.box12{
+    
+}
+
+.top1{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom1{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    right: 200px; */
+
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.box5{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+.box6{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.box7{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+.box8{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 200px;
+}
+
+.box10{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.box11{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.box12{
+    display: none;
+}
+
+.box13{
+    display: none;
+}
+.box14{
+    display: none;
+}
+
+}
+
+/* for tab */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    nav{
+        display: ;
+    }
+
+.div_nav{
+    display: none;
+}
+
+.welcome{
+    font-size: 30px;
+    font-weight: 500;
+}
+.welcome2{
+    font-size: 70px;
+    font-weight: 550;
+} 
+
+.box{
+    width: px;
+    border: 1px solid black;
+}
+
+.text12{
+    position: relative;
+    right: 70px;
+    padding: 70px;
+    text-align: center;
+
+}
+}
